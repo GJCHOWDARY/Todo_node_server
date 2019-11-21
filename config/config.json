@@ -1,0 +1,29 @@
+{
+  "development": {
+    "username": "HOME_RESEARCH_GROUP",
+    "password": "CHOWDARY",
+    "DBurl": "mongodb://localhost:27017/",
+    "database": "TODOS",
+    "jwt_token": "!@#$%^&*()1234567890a-zAZ",
+    "bcrypt_token":"1234567890a-zAZ!@#$%^&*()_+~",
+    "sendgrid_api_key": "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"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "DBurl": "mongodb://localhost:27017/",
+    "database": "database_test",
+    "jwt_token": "!@#$%^&*()1234567890a-zAZ",
+    "bcrypt_token":"1234567890a-zAZ!@#$%^&*()_+~",
+    "sendgrid_api_key": "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"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "DBurl": "mongodb://localhost:27017/",
+    "database": "database_production",
+    "jwt_token": "!@#$%^&*()1234567890a-zAZ",
+    "bcrypt_token":"1234567890a-zAZ!@#$%^&*()_+~",
+    "sendgrid_api_key": "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"
+  }
+}
